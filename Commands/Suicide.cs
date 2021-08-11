@@ -4,7 +4,6 @@ using System;
 
 namespace AnytimeKill.Commands
 {
-    [CommandHandler(typeof(RemoteAdminCommandHandler))]
     [CommandHandler(typeof(GameConsoleCommandHandler))]
     class Suicide : ICommand
     {
