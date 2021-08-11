@@ -8,9 +8,9 @@ namespace AnytimeKill.Commands
     [CommandHandler(typeof(GameConsoleCommandHandler))]
     class Suicide : ICommand
     {
-        public string Command { get; } = "kill";
+        public string Command { get; } = "suicide";
 
-        public string[] Aliases { get; } = { "suicide" };
+        public string[] Aliases { get; } = {};
 
         public string Description { get; } = "Kills you on command";
 
