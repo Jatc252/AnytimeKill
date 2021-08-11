@@ -1,6 +1,5 @@
 ﻿using Exiled.API.Enums;
 using Exiled.API.Features;
-using Exiled.Events;
 using System;
 
 namespace AnytimeKill
