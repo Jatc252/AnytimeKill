@@ -9,6 +9,6 @@ namespace AnytimeKill
         public bool IsEnabled { get; set; } = true;
         [Description("Will the plugin outout debug information?")]
         public bool Debug { get; set; } = false;
-        public string ConfigVersion { get; private set; } = "1";
+        public string ConfigVersion { get; private set; } = "2";
     }
 }

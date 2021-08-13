@@ -4,7 +4,7 @@ using System;
 
 namespace AnytimeKill.Commands
 {
-    [CommandHandler(typeof(GameConsoleCommandHandler))]
+    [CommandHandler(typeof(ClientCommandHandler))]
     class Suicide : ICommand
     {
         public string Command { get; } = "suicide";
