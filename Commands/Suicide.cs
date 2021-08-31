@@ -19,7 +19,7 @@ namespace AnytimeKill.Commands
             {
                 try
                 {
-                    player.CharacterClassManager.SetClassID(RoleType.Spectator);
+                    player.CharacterClassManager.SetClassID(RoleType.Spectator, CharacterClassManager.SpawnReason.Died);
                     response = "Suicided";
                     return true;
                 }
