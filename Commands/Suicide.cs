@@ -8,7 +8,6 @@ namespace AnytimeKill.Commands
     class Suicide : ICommand
     {
         public string Command { get; } = "suicide";
-
         public string[] Aliases { get; } = {};
 
         public string Description { get; } = "Kills you on command";
