@@ -36,7 +36,7 @@ jobs:
         file-name: '7zip.exe'
 
     - name: Extract Refs
-      run: ./7zip.exe e References.zip -o libs/ -r -y
+      run: ./7zip.exe e References.zip -olibs -r -y
 
     - name: Build
       run: msbuild AnytimeKill.sln -p:Configuration=release
