@@ -9,7 +9,6 @@ namespace AnytimeKill.Commands
     {
         public string Command { get; } = "suicide";
         public string[] Aliases { get; } = {};
-
         public string Description { get; } = "Kills you on command";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
