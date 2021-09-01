@@ -5,8 +5,7 @@ name: Build
 on:
   push:
     branches:
-      - master
-      - Synapse
+      - main
 
 jobs:
   build:
