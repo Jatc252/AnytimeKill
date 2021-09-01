@@ -18,7 +18,7 @@ jobs:
       uses: iRebbok/setup-nuget@master
     
     - name: Restore Packages
-      run: nuget restore SCPStats.sln
+      run: nuget restore AnytimeKill.sln
       
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
